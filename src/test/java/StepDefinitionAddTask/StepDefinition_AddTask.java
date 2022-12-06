@@ -54,15 +54,9 @@ public class StepDefinition_AddTask {
 
     @Given("opens URL")
     public void opens_url() {
-        browser = new ChromeDriver();
-
-        browser.get("https://site.app4legal.com/users/login.php");
-        browser.manage().window().maximize();
-
-
-      /*  String url= System.getProperty("url");
+      String url= System.getProperty("url");
         browser.get(url);
-        browser.manage().window().maximize();*/
+        browser.manage().window().maximize();
     }
 
 
